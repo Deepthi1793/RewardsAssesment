@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "4a78c3df-c14c-4419-a47b-ea1e9806b644",
+		"name": "Rewards Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27564668"
+	},
+	"item": [
+		{
+			"name": "Customer 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/rewards/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rewards",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/rewards/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rewards",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/rewards/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rewards",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
